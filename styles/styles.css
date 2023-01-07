@@ -1,0 +1,218 @@
+*{
+   margin: 0;
+   padding: 0;
+ }
+
+/* header styles */
+
+
+header{
+   background-image: url(../images/banner/banner3.png);
+   height: 650px;
+   width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+.header-content-area{
+   height: 100%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   
+   
+}
+.header-content{
+   text-align: right;
+   width: 40%;
+   margin-right: 150px;
+}
+.header-h1{
+   color: #ffffff;
+   font-size: 55px;
+   line-height: 60px;
+   margin-bottom: 25px;
+}
+.header-p{
+   color: #ffffff;
+   line-height: 20px;
+   margin-bottom: 25px;
+}
+.header-button{
+   color:#005FAC;
+   padding: 13px 20px;
+   border: 1px solid white;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: 780;
+   background-color: white;
+}
+
+/* main section style */
+
+main{
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+/* section first */
+
+.section-first{
+   margin: 100px 50px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+.section-first-left-div{
+   background-image: url(../images/flowerb.png);
+   height: 500px;
+   width: 360px;
+   border-radius: 8px;
+   background-position:bottom;
+}
+
+.section-first-right-div h2{
+   font-size: 35px;
+   line-height: 35px;
+   margin-bottom: 20px;
+}
+
+.section-first-right-div p{
+   color: #444343;
+   margin-bottom: 16px;
+   line-height: 20px;
+}
+
+.section-first-ul{
+   list-style: none;
+   color: #444343;
+}
+
+.section-first-ul li{
+   margin-bottom: 8px;
+}
+
+/*  section middle */
+
+.section-middle{
+   margin-top: 100px;
+   text-align: center;
+}
+
+.section-middle h2{
+   margin-bottom:40px;
+   font-size: 35px;
+}
+
+.section-middle-ul{
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+}
+
+.section-middle-ul h3{
+   font-size: 23px;
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+
+.section-middle-ul p{
+   color:#737272;
+   font-weight: 500;
+   font-size: 20px;
+}
+
+/* section last */
+
+.section-last{
+   margin-top: 100px;
+   background-image:linear-gradient(to right , rgba(3, 95, 170, 0.904),rgba(255, 255, 255, 0.26)), url(../images/watch.png);
+   
+   height:300px;
+   border-radius: 8px;
+
+}
+
+.section-last-div{
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.section-last-content-area{
+   margin-left: 50px;
+}
+
+
+.section-last h2{
+   font-size: 35px;
+   line-height: 35px;
+   color: white;
+   margin-bottom: 25px;
+}
+
+.section-last button{
+   color:#005fac;
+   padding: 13px 20px;
+   border: 1px solid white;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: 780;
+   background-color: white;
+}
+
+/* footer section */
+
+.footer-style{
+   margin-top: 100px;
+   background-color: #047dc0;   
+   height:400px;
+}
+
+.footer-primary-div{
+   margin: 0 150px;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer-left-div{
+   color: white;
+}
+
+.footer-left-div h2{
+   padding-bottom: 20px;
+}
+
+.footer-left-div p{
+   font-size:18px;
+   font-weight:50;
+   margin-bottom: 20px;
+}
+
+.form-div h4{
+   font-size: 25px;
+   margin-bottom: 22px;
+   color:white;
+}
+
+input{
+   padding: 15px 100px 15px 15px;
+   display: block;
+   border: 1px solid white;
+   border-radius: 6px;
+   margin-bottom: 20px;
+}
+
+.footer-button{
+   color:#5f5f5f;
+   padding: 13px 20px;
+   border: 1px solid white;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: 780;
+   background-color: white;
+}
